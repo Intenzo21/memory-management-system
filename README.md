@@ -11,16 +11,16 @@ Initially the whole “memory” is one single free segment. An allocated segmen
 The complete public interface for this memory management system consists of the following functions:
 
 #### - void initialize()
-    - this function initialises the segmentation table and the memory array
+    this function initialises the segmentation table and the memory array
 
 #### - void * mymalloc ( size_t size):
-    - this function “allocates” memory of a particular size and returns a pointer to the first byte of the allocated segment
+    this function “allocates” memory of a particular size and returns a pointer to the first byte of the allocated segment
 
 #### - void myfree ( void * ptr):
-    - frees a previously allocated memory
+    frees a previously allocated memory
 
 #### - void mydefrag( void ** ptrlist ):
-    - defragments the memory by deleting unallocated segments and adding their size to the free part of memory
+    defragments the memory by deleting unallocated segments and adding their size to the free part of memory
 
 The helper functions used are **printmemory()**, **printsegmentdescriptor()**, **printsegmenttable()**, **isPrintable()**, **findFree()**, **insertAfter()**, **findSegment()** and **findFree()**. (further described with comments in **mymemory.c**)
 
