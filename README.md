@@ -23,28 +23,28 @@ The helper functions used are **printmemory()**, **printsegmentdescriptor()**, *
 
 ## 2.	How to Run the Program
 #### (!) Before you start make sure u have all the files required in the same directory: mymemory.c, mymemory.h, shell.c and Makefile.
-#### On Windows:
+### On Windows:
 * You will need to install C compiler if you don’t have one, such as GCC (https://gcc.gnu.org/). If you are on a Windows computer, you can run the command ‘gcc -v’ to check if it’s already installed.
 
 * Open the command prompt by going to the Start button and typing ‘cmd' in the search or run bar (or click on Command Prompt if provided).
 
 * Change your directory to where you have your C program (in our case mymemory.c, mymemory.h, shell.c and the Makefile) using the command ‘cd’. We need to pass the name of the directory in which the program is stored.
-```
-Example:  cd Desktop (if the program is already in the user directory)
-```
+  ```
+  Example:  cd Desktop (if the program is already in the user directory)
+  ```
 * Compile the source code by typing ‘make’ in the Command Prompt (compilation is automatically done by the Makefile). (additional command ‘make clean’ to clean up the compilation files)
 
 * Run the executable file by typing the name of the executable file without the extension (in our case ‘shell’) and hit ‘Enter’.
 
-#### On Linux:
+### On Linux:
 
 * Open the terminal window.
 
 * If you don’t have a compiler already installed you will need to run the following apt-get commands in the terminal to install GNU c/c++ compiler:
-```
-$ sudo apt-get update
-$ sudo apt-get install build-essential manpages-dev
-```
+  ```
+  $ sudo apt-get update
+  $ sudo apt-get install build-essential manpages-dev
+  ```
 * Navigate to the program directory using the command ‘cd’ and type in ‘make' to compile the program (since we have a Makefile). (additional command ‘make clean’ to clean up the compilation files)
 
 * To run the executable just type in ‘./<name of file>’ (‘./shell’ in our case) and hit ‘Enter’.
