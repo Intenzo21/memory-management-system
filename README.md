@@ -38,7 +38,7 @@ The helper functions used are **printmemory()**, **printsegmentdescriptor()**, *
 
 ### On Linux:
 
-* Open the terminal window.
+* Open a terminal window.
 
 * If you don’t have a compiler already installed you will need to run the following apt-get commands in the terminal to install GNU c/c++ compiler:
   ```
