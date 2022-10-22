@@ -1,4 +1,4 @@
-# memory-management-system
+# Memory Management System
 ## 1. Description
 
 This program represents an implementation of a simple memory management and allocation system.
